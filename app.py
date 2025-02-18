@@ -1,0 +1,10 @@
+from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain_community.document_loaders import PyPDFDirectoryLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.embeddings import OllamaEmbeddings
+from langchain_core.prompts import ChatPromptTemplate
+from langchain.chains import conversational_retrieval
+from langchain_community.vectorstores import FAISS
+from langchain_groq import ChatGroq
+import streamlit as st
+import os
