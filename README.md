@@ -1,1 +1,1 @@
-# RAG_document_qa
+# RAG_document_Q&A
